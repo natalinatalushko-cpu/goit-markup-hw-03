@@ -1,0 +1,289 @@
+/* // <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+/* .raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+body {
+	background-color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #2E2F42;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+}	
+
+button {
+	font-family: inherit;
+	font-weight: 500;	
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	/* border-radius: 4px; */
+	background-color: #4D5AE5;
+	cursor: pointer;
+}
+
+button.hero-button {
+	font-family: inherit;
+	font-weight: 500;	
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing:  0.04em;
+	/* border-radius: 4px; */
+	background-color: #4D5AE5;
+	cursor: pointer;
+}
+
+p {
+	font-style: normal;
+	font-weight: 400;
+}
+
+a {
+	font-family: inherit;
+	color: #000;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.333;
+	letter-spacing: 0.04em;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	color: #404bbf;
+}
+
+a:active,
+a.link {
+	color: #4D5AE5;
+}
+
+a:active {
+	color: #404BBF;
+}
+
+nav a {
+	padding-bottom: 5px;
+}
+
+nav a:active {
+	color: #404BBF;
+	border-bottom: 4px solid #404BBF;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-list li a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	color: #2E2F42;
+}
+
+h1 {
+	font-family: inherit;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1.0714;
+	letter-spacing: 0.02em;
+}
+
+h2 {
+	font-family: inherit;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	text-align: center;
+}
+
+h3 {
+	font-family: inherit;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0.02em;
+}
+
+.background-navy-blue {
+	background-color: #2E2F42;
+}
+
+.color-navy-blue {
+	color: #2E2F42;
+}
+
+.color-slate {
+	color: #434455
+}
+
+button {
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	padding: 16px 32px;
+	background-color: #4D5AE5;
+	color: #ffffff;
+}
+
+button:hover,
+button:focus {
+	background-color: #404BBF;
+}
+
+.center {
+	text-align: center;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.accent-blue {
+  color: #4D5AE5;
+}
+
+/* header */
+
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.17;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.03em;
+}
+
+.logo a {
+	color: #2E2F42;
+	text-decoration: none;
+}
+
+.page-nav .nav-list a {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-style: medium;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color:#2E2F42;
+}
+
+address {
+	margin-left: auto;
+	font-style: normal;
+}
+
+/* end header */
+
+
+.visually-hidden {
+	position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* hero block */
+
+.main-header {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 56px;
+	font-weight: 700;
+	text-align:center;
+	margin-bottom: 58px;
+	line-height: 1.07;
+	letter-spacing: 0.02em;
+}
+
+.main-banner-hero {
+	padding-top: 195px;
+	padding-bottom: 188px;
+}
+
+/* end hero block */
+
+/* feature block */
+
+.features-title {
+	text-align: left;
+	letter-spacing: 0.02em;
+}
+
+/* end feature block */
+
+/* team-section */
+
+section.team-block {
+	background: #F4F4FD;
+}
+
+section.team-block ul li {
+	background: #FFFFFF;
+	/* border: 1px solid #E0E0E0;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+	border-radius: 8px;
+	text-align: center; */
+	width: 264px;
+	/* overflow: hidden */
+}
+
+/* end-team-section */
+
+/* footer */
+
+.footer-content .logo {
+	text-decoration: none;
+}
+
+.footer-content .logo a{
+	color: #F4F4FD;
+	text-decoration: none;
+	letter-spacing: 0.03em;
+}
+
+.footer-content p {
+	color: #F4F4FD;
+}
+
+/* end footer */
