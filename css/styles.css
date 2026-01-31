@@ -53,6 +53,8 @@ button.hero-button {
 }
 
 p {
+	padding: 0;
+	margin: 0;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -69,7 +71,7 @@ a {
 
 a:hover,
 a:focus {
-	color: #404bbf;
+	color: #404bbf; 
 }
 
 a:active,
@@ -78,6 +80,11 @@ a.link {
 }
 
 a:active {
+	color: #404BBF;
+}
+
+.page-nav .nav-list a:hover,
+.page-nav .nav-list a:focus {
 	color: #404BBF;
 }
 
@@ -97,6 +104,17 @@ ol {
   padding: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	color: #2E2F42;
+}
+
+.social-list {
+	display: flex;
+	gap: 40px;
+}
+
 .social-list li a {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
@@ -106,10 +124,9 @@ ol {
 	color: #434455;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	margin: 0;
-	padding: 0;
-	color: #2E2F42;
+.social-list li a:hover,
+.social-list li a:focus {
+	color: #404BBF;
 }
 
 h1 {
@@ -144,7 +161,7 @@ h3 {
 }
 
 .color-slate {
-	color: #434455
+	color: #434455;
 }
 
 button {
@@ -166,9 +183,19 @@ button:focus {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1158px;
 	margin: 0 auto;
-	padding: 0 15px;
+	padding: 120px 15px 120 15px;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.header-container {
+	max-width: 1158px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+
 }
 
 .accent-blue {
@@ -185,11 +212,29 @@ button:focus {
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 0.03em;
+	margin-right: 76px;
 }
 
 .logo a {
 	color: #2E2F42;
 	text-decoration: none;
+	font-size:  18px;
+	font-weight: bold;
+}
+
+.page-header {
+	border-bottom: 1px solid #E7E9FC;
+	display: flex;
+	padding-top: 24px;
+}
+
+.page-nav .nav-list {
+	display: flex;
+	gap: 40px;
+}
+
+.page-nav .nav-list  .nav-list-item {
+	padding-bottom: 24px;
 }
 
 .page-nav .nav-list a {
@@ -200,6 +245,7 @@ button:focus {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color:#2E2F42;
+	padding: 24px 0;
 }
 
 address {
@@ -228,17 +274,23 @@ address {
 .main-header {
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
-	font-size: 56px;
 	font-weight: 700;
 	text-align:center;
-	margin-bottom: 58px;
 	line-height: 1.07;
 	letter-spacing: 0.02em;
+	width: 496px;
+	margin: 0 auto;
+	font-size: 48px;
+	margin-bottom: 48px;
 }
 
 .main-banner-hero {
 	padding-top: 195px;
 	padding-bottom: 188px;
+}
+
+.button-section {
+	text-align: center;
 }
 
 /* end hero block */
@@ -247,7 +299,22 @@ address {
 
 .features-title {
 	text-align: left;
-	letter-spacing: 0.02em;
+	font-family: roboto;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+	margin-bottom: 18px;
+}
+
+ul.features-list {
+	display: flex;
+	gap: 33px;
+	justify-content: space-between;
+}
+
+p.feature-text {
+	color: #434455;
+
 }
 
 /* end feature block */
@@ -256,6 +323,41 @@ address {
 
 section.team-block {
 	background: #F4F4FD;
+}
+
+.team-area {
+	padding-top: 37px;
+	padding-bottom: 39px;
+}
+
+.team-area h3 {
+	margin-bottom: 18px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: #2e2f42;
+}
+
+.team-text {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: #434455;
+}
+ 
+.team-title {
+	margin-bottom: 72px;
+}
+
+section.team-block ul {
+	display: flex;
+	justify-content: space-between;
 }
 
 section.team-block ul li {
@@ -270,6 +372,52 @@ section.team-block ul li {
 
 /* end-team-section */
 
+/* portfolio */
+
+.portfolio-title {
+	margin-bottom: 72px;
+}
+
+.portfolio-list {
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+li.portfolio-list-item {
+	padding-bottom: 48px;
+}
+
+.portfolio-area {
+	padding-top: 36px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 35px;
+	border-bottom: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+}
+
+.portfolio-area .portfolio-item-title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #2e2f42;
+}
+
+.portfolio-area .portfolio-item-type {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+/* end portfolio */
+
 /* footer */
 
 .footer-content .logo {
@@ -282,8 +430,12 @@ section.team-block ul li {
 	letter-spacing: 0.03em;
 }
 
-.footer-content p {
+.footer-content p.footer-info {
 	color: #F4F4FD;
+}
+
+p.footer-info {
+	width: 264px;
 }
 
 /* end footer */
