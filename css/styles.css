@@ -41,18 +41,6 @@ button {
 	cursor: pointer;
 }
 
-button.hero-button {
-	font-family: inherit;
-	font-weight: 500;	
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing:  0.04em;
-	/* border-radius: 4px; */
-	background-color: #4D5AE5;
-	cursor: pointer;
-	margin-bottom: 188px;
-}
-
 p {
 	padding: 0;
 	margin: 0;
@@ -294,16 +282,28 @@ address {
 	margin: 0 auto;
 	font-size: 56px;
 	margin-bottom: 48px;
-	padding-top: 188px;
+	/* padding-top: 188px; */
 }
 
-/* .main-banner-hero {
-	padding-top: 195px;
+.main-banner-hero {
+	padding-top: 188px;
 	padding-bottom: 188px;
-} */
+}
 
 .button-section {
 	text-align: center;
+}
+
+button.hero-button {
+	font-family: inherit;
+	font-weight: 500;	
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing:  0.04em;
+	/* border-radius: 4px; */
+	background-color: #4D5AE5;
+	cursor: pointer;
+	/* margin-bottom: 188px; */
 }
 
 /* end hero block */
@@ -311,8 +311,8 @@ address {
 /* feature block */
 
 .features {
-	padding-top: 129px;
-	padding-bottom: 84px;
+	padding-top: 120px;
+	padding-bottom: 120px;
 }
 
 .features-title {
@@ -321,12 +321,12 @@ address {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-	margin-bottom: 18px;
+	margin-bottom: 8px;
 }
 
 ul.features-list {
 	display: flex;
-	gap: 33px;
+	gap: 24px;
 	justify-content: space-between;
 }
 
@@ -341,10 +341,12 @@ p.feature-text {
 
 section.team-block {
 	background: #F4F4FD;
+	padding-top: 120px;
+	padding-bottom: 120px;
 }
 
 .team {
-	padding-bottom: 120px;
+	/* padding-bottom: 120px; */
 }
 
 .team-area {
@@ -373,7 +375,7 @@ section.team-block {
 }
  
 .team-title {
-	padding-top: 120px;
+	/* padding-top: 120px; */
 	margin-bottom: 72px;
 }
 
@@ -387,6 +389,9 @@ section.team-block ul li {
 	background: #FFFFFF;
 	width: 264px;
 	border-radius: 0 0 4px 4px;
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+              0px 1px 1px rgba(46, 47, 66, 0.16),
+              0px 2px 1px rgba(46, 47, 66, 0.08);
 	/* border: 1px solid #E0E0E0;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05); */
 	/* border-radius: 8px; */
@@ -416,14 +421,14 @@ section.team-block ul li {
 }
 
 li.portfolio-list-item {
-	padding-bottom: 48px;
+	/* padding-bottom: 48px; */
 }
 
 .portfolio-area {
 	padding: 32px 16px;
-	border-bottom: 1px solid #ebebeb;
-    border-left: 1px solid #ebebeb;
-    border-right: 1px solid #ebebeb;
+	border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
 }
 
 .portfolio-area .portfolio-item-title {
@@ -448,9 +453,13 @@ li.portfolio-list-item {
 
 /* footer */
 
+.footer-content {
+	padding-top: 101px;
+}	
+
 .footer-content .logo {
 	text-decoration: none;
-	padding-top: 101px;
+	/* padding-top: 101px; */
 }
 
 .footer-content .logo a{
