@@ -50,6 +50,7 @@ button.hero-button {
 	/* border-radius: 4px; */
 	background-color: #4D5AE5;
 	cursor: pointer;
+	margin-bottom: 188px;
 }
 
 p {
@@ -122,6 +123,9 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	display: block;
 }
 
 .social-list li a:hover,
@@ -185,13 +189,9 @@ button:focus {
 .container {
 	max-width: 1158px;
 	margin: 0 auto;
-	padding: 120px 15px 120 15px;
-	padding-top: 120px;
-	padding-bottom: 120px;
-}
-
-.container-main .container {
-	padding-top: 185px;
+	padding: 0 15px;
+	/* padding-top: 120px;
+	padding-bottom: 120px; */
 }
 
 .header-container {
@@ -219,20 +219,23 @@ button:focus {
 	margin-right: 76px;
 }
 
-.logo a {
+.logo a.page-logo {
 	color: #2E2F42;
 	text-decoration: none;
 	font-size:  18px;
 	font-weight: bold;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	display: block;
 }
 
 .page-header {
 	border-bottom: 1px solid #E7E9FC;
-	padding-top: 24px;
 }
 
-.page-header .container-inner {
+.page-header .container {
 	display: flex;
+	padding: 0;
 }
 
 
@@ -243,6 +246,7 @@ button:focus {
 
 .page-nav .nav-list  .nav-list-item {
 	padding-bottom: 24px;
+	padding-top: 24px;
 }
 
 .page-nav .nav-list a {
@@ -290,6 +294,7 @@ address {
 	margin: 0 auto;
 	font-size: 56px;
 	margin-bottom: 48px;
+	padding-top: 188px;
 }
 
 .main-banner-hero {
@@ -304,6 +309,11 @@ address {
 /* end hero block */
 
 /* feature block */
+
+.features {
+	padding-top: 129px;
+	padding-bottom: 84px;
+}
 
 .features-title {
 	text-align: left;
@@ -333,6 +343,10 @@ section.team-block {
 	background: #F4F4FD;
 }
 
+.team {
+	padding-bottom: 120px;
+}
+
 .team-area {
 	padding: 32px 16px;
 }
@@ -359,6 +373,7 @@ section.team-block {
 }
  
 .team-title {
+	padding-top: 120px;
 	margin-bottom: 72px;
 }
 
@@ -384,7 +399,12 @@ section.team-block ul li {
 /* portfolio */
 
 .portfolio-title {
+	padding-top: 120px;
 	margin-bottom: 72px;
+}
+
+.portfolio-gallery {
+	padding-bottom: 120px;
 }
 
 .portfolio-list {
@@ -431,16 +451,21 @@ li.portfolio-list-item {
 
 .footer-content .logo {
 	text-decoration: none;
+	padding-top: 101px;
 }
 
 .footer-content .logo a{
 	color: #F4F4FD;
 	text-decoration: none;
 	letter-spacing: 0.03em;
+	padding-bottom: 24px;
+    padding-top: 0;
+    display: block;
 }
 
 .footer-content p.footer-info {
 	color: #F4F4FD;
+	padding-bottom: 100px;
 }
 
 p.footer-info {
