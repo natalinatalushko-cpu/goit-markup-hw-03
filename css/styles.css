@@ -196,19 +196,11 @@ button:focus {
 
 /* header */
 
-.logo {
+.page-logo {
 	font-family: "Raleway", sans-serif;
-	font-size: 18px;
 	font-weight: 700;
 	line-height: 1.17;
 	text-transform: uppercase;
-	text-decoration: none;
-	letter-spacing: 0.03em;
-	margin-right: 76px;
-	margin-bottom: 16px;
-}
-
-.logo a.page-logo {
 	color: #2E2F42;
 	text-decoration: none;
 	font-size:  18px;
@@ -216,6 +208,9 @@ button:focus {
 	padding-top: 24px;
 	padding-bottom: 24px;
 	display: block;
+	letter-spacing: 0.03em;
+	margin-right: 76px;
+	margin-bottom: 16px;
 }
 
 .page-header {
@@ -334,7 +329,8 @@ ul.features-list {
 }
 
 .features-list-item {
-	padding-right: 24px;
+	/* padding-right: 24px; */
+	margin-right: 24px;
 }
 
 p.feature-text {
@@ -350,10 +346,6 @@ section.team-block {
 	background: #F4F4FD;
 	padding-top: 120px;
 	padding-bottom: 120px;
-}
-
-.team {
-	/* padding-bottom: 120px; */
 }
 
 .team-area {
@@ -400,11 +392,16 @@ section.team-block ul li {
               0px 1px 1px rgba(46, 47, 66, 0.16),
               0px 2px 1px rgba(46, 47, 66, 0.08);
 	margin-right: 24px; 
-			  /* border: 1px solid #E0E0E0;
+
+	/* border: 1px solid #E0E0E0;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05); */
 	/* border-radius: 8px; */
 	/* text-align: center; */
 	/* overflow: hidden */
+}
+
+section.team-block ul li:last-child {
+	margin-right: 0;
 }
 
 section.team-block ul li img {
@@ -417,14 +414,11 @@ section.team-block ul li img {
 
 .portfolio-section {
 	padding-top: 120px;
+	padding-bottom: 120px;
 }
 
 .portfolio-title {
 	margin-bottom: 72px;
-}
-
-.portfolio-gallery {
-	padding-bottom: 120px;
 }
 
 .portfolio-list {
@@ -457,7 +451,7 @@ li.portfolio-list-item img {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
-	padding-bottom: 8px;
+	margin-bottom: 8px;
 }
 
 .portfolio-area .portfolio-item-type {
@@ -477,16 +471,9 @@ li.portfolio-list-item img {
 	padding: 100px 0;
 }	
 
-.footer-content .logo {
-	text-decoration: none;
-	/* padding-top: 101px; */
-	/* padding-bottom: 24px; */
-}
-
-.footer-content .logo a.logo-link{
+.footer-content a.logo-link{
 	color: #F4F4FD;
 	text-decoration: none;
-	letter-spacing: 0.03em;
     padding-top: 0;
     display: block;
 	font-family: "Raleway", sans-serif;
@@ -495,12 +482,12 @@ li.portfolio-list-item img {
 	line-height: 1.16667;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #f4f4fd;
 }
 
 .footer-content p.footer-info {
 	color: #F4F4FD;
 	/* padding-bottom: 100px; */
+	padding: 17px 0;
 }
 
 p.footer-info {
