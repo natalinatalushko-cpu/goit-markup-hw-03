@@ -428,7 +428,7 @@ section.team-block ul li img {
 
 .portfolio-list {
 	display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
   	column-gap: 24px; /* між колонками */
   	row-gap: 48px;    /* між рядками */
@@ -492,7 +492,7 @@ li.portfolio-list-item img {
 .footer-content p.footer-info {
 	color: #F4F4FD;
 	/* padding-bottom: 100px; */
-	padding: 17px 0;
+	padding-top: 16px;
 }
 
 p.footer-info {
