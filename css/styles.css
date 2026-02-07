@@ -331,6 +331,11 @@ ul.features-list {
 .features-list-item {
 	/* padding-right: 24px; */
 	margin-right: 24px;
+	width: 256px;
+}
+
+.features-list-item:last-child {
+	margin-right: 0;
 }
 
 p.feature-text {
